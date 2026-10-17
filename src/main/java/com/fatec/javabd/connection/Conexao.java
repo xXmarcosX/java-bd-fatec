@@ -9,7 +9,7 @@ public class Conexao {
 		Connection conexao = null;
 		 String url = "jdbc:mysql://localhost:3306/bdjava";
 	     String user = "root";
-	     String password = "root";
+	     String password = "12345678";
 
 	     try {
 	    	 conexao = DriverManager.getConnection(url, user, password);

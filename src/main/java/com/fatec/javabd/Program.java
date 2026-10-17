@@ -36,7 +36,7 @@ public class Program {
 //	       	alunoDao.adicionarAluno(aluno);
 	       	
 	       	System.out.println("Consultando aluno por RA: ");
-	       	Aluno aluno2 = alunoDao.consultaAlunoPorRA("5764537281198");
+	       	Aluno aluno2 = alunoDao.consultaAlunoPorRA("2830482511008");
 	       	
 	       	System.out.println(aluno2.getRa());
 	       	System.out.println(aluno2.getNome());

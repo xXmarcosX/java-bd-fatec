@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import com.fatec.javabd.connection.Conexao;
+import javax.swing.JOptionPane;
 
 public class AlunoDAO {
 	String sql;
@@ -32,6 +33,7 @@ public class AlunoDAO {
 			
 		} catch(SQLException e) {
 			System.out.println("Erro: " + e);
+                        JOptionPane.showMessageDialog(null, "Erro ao cadastrar aluno");
 		}
 	}
 	
